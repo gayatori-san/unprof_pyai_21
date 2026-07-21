@@ -26,7 +26,7 @@ For simplicity, this implementation uses a **mock retriever** with a small in-me
 
 ```
 .
-├── app.py          # Main RAG CLI application
+├── task 21.py          # Main RAG CLI application
 ├── README.md       # Documentation
 └── requirements.txt
 ```
@@ -147,7 +147,7 @@ quit
 ## Clone the repository
 
 ```bash
-git clone https://github.com/gayatori-san/unprof_pyai_21
+git clone https://github.com/gayatori-san/unprof_pyai_21.git
 cd rag-prompt-builder
 ```
 
@@ -253,28 +253,6 @@ The mock database contains the following example documents:
 
 ---
 
-# 🔮 Future Improvements
 
-* Replace mock retrieval with FAISS
-* Add PDF document ingestion
-* Use embeddings for semantic search
-* Store vectors in ChromaDB
-* Support multiple document collections
-* Add streaming responses
-* Implement conversation memory
-* Build a web interface using Streamlit or Flask
-
----
-
-# 📚 Learning Outcomes
-
-After completing this project, you will understand:
-
-* Retrieval-Augmented Generation (RAG)
-* Context-aware prompt engineering
-* Prompt construction techniques
-* OpenAI Chat Completion API
-* Grounding LLM responses
-* CLI application development
 * Error handling in Python
 * End-to-end RAG workflow
